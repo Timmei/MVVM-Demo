@@ -14,6 +14,9 @@
 
 @implementation AppDelegate
 
+- (void)set{
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"www.baidu.com"]];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
