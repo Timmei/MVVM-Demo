@@ -14,7 +14,8 @@
 
 @implementation AppDelegate
 
-- (void)set{
+
+- (void)dideload{
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"www.baidu.com"]];
 }
 
