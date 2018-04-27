@@ -22,6 +22,7 @@
 }
 
 
+
 - (void)set{
 
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"www.baidu.com"]];
