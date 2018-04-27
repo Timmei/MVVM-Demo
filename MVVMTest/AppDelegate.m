@@ -17,7 +17,13 @@
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"www.baidu.com"]];
 }
 
-- (void)dideload{
+- (void)set2{
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"www.baidu.com"]];
+}
+
+
+- (void)set{
+
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"www.baidu.com"]];
 }
 
