@@ -28,6 +28,7 @@
     [UIButton setSharedImageCache:[UIButton sharedImageCache]];
     [UIImageView setSharedImageCache:[UIImageView sharedImageCache]];
     
+    NSLog(@"hello world!!");
     
     
     return YES;
